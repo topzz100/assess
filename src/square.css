@@ -1,0 +1,28 @@
+.bigSquare{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  width: 700px;
+  height: 700px;
+  border: 1px solid black;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+
+}
+.square{
+  height: 70px;
+  width: 70px;
+  background-color: red;
+  
+}
+.square select{
+  border: 1px solid grey;
+  background-color: red;
+  color: white;
+}
